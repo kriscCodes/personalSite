@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.meImage{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.talking{
+    text-align: justify;
+    width: 450px;
+}
+
+.firstCuy{
+    width: 200px;
+    height: 200px;
+}
+
+.cuy{
+    width: 200px;
+    height: 200px;
+}
+
+.skillsHeader{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.skillsLogos{
+    display: flex;
+    justify-content: center;
+    margin-left:12vh;
+    margin-right:12vh;
+}
+
+.imgCarousel{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    border-radius: 100px;
+    border-style: none;
+    height: 50px;
+    margin-top: 25vh;
+    width: 10vh;
+}
+
+.projectDescription{
+    display: flex;
+    justify-content: center;
+}
+
+.img1Carousel{
+    width: 400px;
+    height: 400px;
+}
+
+.icons {
+    height: 50px;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+}
+
