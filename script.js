@@ -9,11 +9,11 @@ let projectDescription = document.getElementById("projectFunction");
 let projectLink = document.getElementById("projectLinks");
 
 
-let describeArr = ["Covid Tracker", "Weather App", "Current Project"];
+let describeArr = ["Covid Tracker", "Weather App", "Project in progress"];
 
 let imageArr = ["images/tracker.png", "images/weather.png", "images/calc.png"];
 
-let linkArr = ["https://krisccodes.github.io/BionicSources/statistics.html", "https://www.google.com/", "https://www.apple.com/"];
+let linkArr = ["https://krisccodes.github.io/BionicSources/statistics.html", "https://krisccodes.github.io/weather/"];
 
 let imageCounter = 0;
 

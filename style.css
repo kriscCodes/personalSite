@@ -3,13 +3,16 @@
     justify-content: space-evenly;
     border-style: solid;
     border-color: rebeccapurple;
-    
+    border-width: 3px;
+    padding-bottom: 2vh;
+
 }
 
 .navItems{
     text-decoration: none;
     color: black;
     font-size: larger;
+    margin-top: 2vh;
 }
 
 .navItems:hover{
