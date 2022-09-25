@@ -2,7 +2,18 @@
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    border-color: rebeccapurple;
     
+}
+
+.navItems{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.navItems:hover{
+    cursor: pointer;
 }
 
 .name{
@@ -20,7 +31,7 @@
     color: rebeccapurple;
 }
 
-.description{
+#description{
     display: flex;
     justify-content: center;
     
@@ -106,9 +117,9 @@
         color: rebeccapurple;
     }
 
-    .navbar{ 
-        border-style: solid;
-        
+    .navItems{
+        padding-left: 0vh;
+        text-decoration: none;
     }
 
     #firstImage{
