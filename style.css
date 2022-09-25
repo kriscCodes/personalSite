@@ -1,6 +1,8 @@
 .navbar{
     display: flex;
-    justify-content: space-between;
+    
+    
+    
 }
 
 .name{
@@ -46,15 +48,17 @@
 
 .skillsLogos{
     display: flex;
-    justify-content: center;
-    margin-left:12vh;
-    margin-right:12vh;
+    justify-content: space-around;
+    
+    
+
 }
 
 .imgCarousel{
     margin-top: 10vh;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .buttons{
@@ -82,5 +86,40 @@
 #links{
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width:390px)  {
+    .talking{
+       margin-left: 1vh;
+       margin-right: 1vh;
+    }
+
+    .cuy{
+     width: 75px;
+     height: 75px;
+    }
+
+    
+    .skillsHeader{
+        display: flex;
+        justify-content: center;
+        color: rebeccapurple;
+    }
+
+    .navbar{ 
+        border-style: solid;
+        
+    }
+
+    #firstImage{
+        height: 250px;
+        width: 250px;
+    }
+
+    .buttons{
+        margin-top: 15vh;
+    }
+
+   
 }
 
